@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Contact me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+     header {
+       margin-top: 20px;
+       margin-right: 17px;
+     }
+     a.one:link {
+       color: purple;
+       font-family:"Arial";
+       font-size: large;
+       }
+     a.one:visited {
+       color: black;
+       font-family:"Arial";
+       }
+     a.one:hover {
+       color: red;
+       font-family:"Arial";
+       font-size: xx-large;
+       text-decoration: none;
+       }
+
+     section {
+         font-size: 20px;
+         text-align: center;
+         font-family:arial;
+         color: #202020;
+         }
+
+     .bg {
+         background-image:url(img/tablet.jpg);
+         width: 95%;
+         height: 100%;
+         background-attachment: fixed;
+         background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         }
+
+/* media queries */
+
+         @media only screen and (min-width: 480px) {
+             body {
+               margin: 0 auto;
+               width: 75%;
+             }
+             nav a {
+               float: inherit;
+               width: 30%;
+               margin: 0 auto;
+               padding: 25px 1%;
+               margin-bottom: 0;
+                 }
+             a.one:link {
+               color: black;
+               font-family:"Arial";
+               font-size: 20px;
+                 }
+             a.one:visited {
+               color: purple;
+               font-family:"Arial";
+                 }
+             a.one:hover {
+                color: red;
+                font-family:"Arial";
+                font-size: 30px;
+                text-decoration: none;
+                 }
+             section {
+                font-size: 40px;
+                text-align: center;
+                font-family:arial;
+                color: #202020;
+                line-height: 1.1;
+                 }
+               }
+         @media only screen and (min-width: 1025px) {
+             nav a {
+                float: inherit;
+                width: 30%;
+                margin: 0 auto;
+                padding: 25px 1%;
+                margin-bottom: 0;
+                }
+             a.one:link {
+                color: black;
+                font-family:"Arial";
+                font-size: 20px;
+                }
+             a.one:visited {
+                color: purple;
+                font-family:"Arial";
+               }
+             a.one:hover {
+                color: red;
+                font-family:"Arial";
+                font-size: 30px;
+                text-decoration: none;
+               }
+             section {
+               font-size: 20px;
+               text-align: center;
+               font-family:arial;
+               color: #202020;
+               line-height: 1.1;
+               }
+             }
+   </style>
+  </head>
+  <body class="bg">
+   <!-- beginning of nav bar -->
+    <header>
+        <nav>
+          <div style="text-align: center">
+             <a href="index.html" class="one">Home</a>
+             <br>
+             <a href="about.html" class="one">About</a>
+             <a href="contact.html" class="one">Contact</a>
+          </div>
+        </nav>
+    </header>
+    <hr style="border-color: #707070">
+   <!-- ending of nav bar -->
+   <!-- contact details -->
+    <main>
+       <section>
+           <h1>Contact:</h1>
+           <p>Mobile: 084 388 0116</p>
+           <p>E-mail address: jdilgee999 @gmail.com</p>
+           <h2>Media:</h2>
+           <a href="https://github.com/JesseLee999" target="_blank" align="middle"><img src="img/github.png" width="90px" height="90px"></a>
+       </section>
+    </main>
+  </body>
+</html>

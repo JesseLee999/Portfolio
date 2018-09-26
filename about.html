@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title> About me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+     header {
+       margin-top: 20px;
+       }
+     a.one:link {
+       color: black;
+       font-family:"Arial";
+       font-size: large;
+       }
+     a.one:visited {
+       color: purple;
+       font-family:"Arial";
+       }
+     a.one:hover {
+       color: red;
+       font-family:"Arial";
+       font-size: xx-large;
+       text-decoration: none;
+       }
+
+     ul {
+      align-content: center;
+      vertical-align: middle;
+      list-style-position: inside;
+       }
+
+     ol {
+       list-style-position: inside;
+     }
+
+     section {
+       font-size: 20px;
+       text-align: center;
+       font-family:arial;
+       color: #202020;
+       }
+
+     .bg {
+       background-image:url(img/tablet.jpg);
+       width: 95%;
+       height: 100%;
+       background-attachment: fixed;
+       background-position: center center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       }
+
+/* media queries */
+
+       @media only screen and (min-width: 480px) {
+         body {
+           margin: 0 auto;
+           width: 75%;
+         }
+           nav a {
+             float: inherit;
+             width: 30%;
+             margin: 0 auto;
+             padding: 25px 1%;
+             margin-bottom: 0;
+           }
+           a.one:link {
+             color: black;
+             font-family:"Arial";
+             font-size: 20px;
+             }
+           a.one:visited {
+             color: purple;
+             font-family:"Arial";
+             }
+           a.one:hover {
+             color: red;
+             font-family:"Arial";
+             font-size: 30px;
+             text-decoration: none;
+             }
+           section {
+               font-size: 40px;
+               text-align: center;
+               font-family:arial;
+               color: #202020;
+               line-height: 1.1;
+           }
+         }
+         @media only screen and (min-width: 1025px) {
+           nav a {
+             float: inherit;
+             width: 30%;
+             margin: 0 auto;
+             padding: 25px 1%;
+             margin-bottom: 0;
+           }
+           a.one:link {
+             color: black;
+             font-family:"Arial";
+             font-size: 20px;
+             }
+           a.one:visited {
+             color: purple;
+             font-family:"Arial";
+             }
+           a.one:hover {
+             color: red;
+             font-family:"Arial";
+             font-size: 30px;
+             text-decoration: none;
+             }
+           section {
+             font-size: 20px;
+             text-align: center;
+             font-family:arial;
+             color: #202020;
+             line-height: 1.1;
+           }
+         }
+   </style>
+  </head>
+  <body class="bg">
+   <!-- beginning of nav bar -->
+    <header>
+        <nav>
+          <div style="text-align: center">
+             <a href="index.html" class="one">Home</a>
+             <br>
+             <a href="about.html" class="one">About</a>
+             <a href="contact.html" class="one">Contact</a>
+          </div>
+        </nav>
+    </header>
+    <hr style="border-color: #707070">
+   <!-- ending of nav bar -->
+   <!-- about me(paragraphs and headings and lists) -->
+   <main>
+       <section>
+        <!-- <div id="box1"> -->
+         <h1>About:</h1>
+         <p>A highly motivated and hardworking individual. Passionate about technology and programming.
+           <br>
+         Striving to gain new knowledge every day.</p>
+        <!-- </div> -->
+       </section>
+       <section>
+        <!-- <div id="box2"> -->
+         <h2>Education:</h2>
+         <h3>Tertiary:</h2>
+         <p>Institution: Life Choices</p>
+         <p>Date: September 2018-February 2019</p>
+         <p>Course: Web Development</p>
+         <p>Subjects: Programming, Professional Development, Design Thinking</p>
+         <h3>Secondary:</h3>
+         <p>School: South Peninsula High school</p>
+         <p>Year: 2017</p>
+         <p>Qualification: Matric</p>
+         <p>Subjects: English, Afrikaans, Pure Maths, Life Science, Physical Science, Geography</p>
+        <!-- </div> -->
+       </section>
+       <section>
+        <!-- <div id="box3"> -->
+         <h2>Skills & Interests:</h2>
+          <ul>
+           <li>Graphic Design and Video FX</li>
+           <li>Problem-solving</li>
+           <li>Team-sports</li>
+           <li>Ability to work under pressure</li>
+           <li>Skateboarding</li>
+          </ul>
+        <!-- </div> -->
+       <section>
+       </section>
+        <!-- <div id="box4"> -->
+         <h2>Work Experience:</h2>
+         <p>No work experience but eager to learn.</p>
+        <!-- </div> -->
+       </section>
+       <section>
+        <!-- <div id="box5"> -->
+         <h3>References:</h3>
+          <ol>
+           <li>Mr. Z Baker</li>
+           <p>Acting Principal of South Peninsula High School</p>
+           <p>Ph: 021 712 9355</p>
+           <br>
+           <li>Rev. G Damoes</li>
+           <p>St. Faiths Anglican Church</p>
+           <p>Ph: 073 332 2965 (c)<p>
+          </ol>
+        <!-- </div> -->
+       </section>
+   </main>
+  </body>
+</html>
