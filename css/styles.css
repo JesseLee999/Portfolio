@@ -1,0 +1,320 @@
+/* index */
+
+a.one:link {
+  color: black;
+  font-family:"Lato";
+  font-size: large;
+  }
+a.one:visited {
+  color: purple;
+  font-family:"Lato";
+  }
+a.one:hover {
+  color: red;
+  font-family:"Lato";
+  font-size: xx-large;
+  text-decoration: none;
+  }
+
+h1 {
+  font-size: 60px;
+  color: #202020;
+  }
+
+h2 {
+  font-size:35px;
+  color: #202020;
+  }
+
+body {
+  text-align: center;
+  font-family: "Lato";
+  margin-top: 200px;
+  }
+
+.bg {
+  background-image:url(img/tablet.jpg);
+  width: 95%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 480px) {
+  nav a {
+    float: inherit;
+    width: 30%;
+    margin: 0 auto;
+    padding: 25px 1%;
+    margin-bottom: 0;
+  }
+  a.one:link {
+    color: black;
+    font-family:"Lato";
+    font-size: 20px;
+    }
+  a.one:visited {
+    color: purple;
+    font-family:"Lato";
+    }
+  a.one:hover {
+    color: red;
+    font-family:"Lato";
+    font-size: 30px;
+    text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+ nav a {
+   float: inherit;
+   width: 30%;
+   margin: 0 auto;
+   padding: 25px 1%;
+   margin-bottom: 0;
+ }
+ a.one:link {
+   color: black;
+   font-family:"Lato";
+   font-size: 40px;
+   }
+ a.one:visited {
+   color: purple;
+   font-family:"Lato";
+   }
+ a.one:hover {
+   color: red;
+   font-family:"Lato";
+   font-size: 50px;
+   text-decoration: none;
+ }
+}
+
+/* about */
+
+header {
+  margin-top: 10px;
+  }
+a.one:link {
+  color: black;
+  font-family:"Lato";
+  font-size: large;
+  }
+a.one:visited {
+  color: purple;
+  font-family:"Lato";
+  }
+a.one:hover {
+  color: red;
+  font-family:"Lato";
+  font-size: xx-large;
+  text-decoration: none;
+  }
+
+ul {
+ align-content: center;
+ vertical-align: middle;
+ list-style-position: inside;
+  }
+
+ol {
+  list-style-position: inside;
+}
+
+section {
+  font-size: 20px;
+  text-align: center;
+  font-family:arial;
+  color: #202020;
+  }
+
+.bg {
+  background-image:url(img/tablet.jpg);
+  width: 95%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+/* media queries */
+
+  @media only screen and (min-width: 480px) {
+    body {
+      margin: 0 auto;
+      width: 75%;
+    }
+      nav a {
+        float: inherit;
+        width: 30%;
+        margin: 0 auto;
+        padding: 25px 1%;
+        margin-bottom: 0;
+      }
+      a.one:link {
+        color: black;
+        font-family:"Lato";
+        font-size: 20px;
+        }
+      a.one:visited {
+        color: purple;
+        font-family:"Lato";
+        }
+      a.one:hover {
+        color: red;
+        font-family:"Lato";
+        font-size: 30px;
+        text-decoration: none;
+        }
+      section {
+          font-size: 40px;
+          text-align: center;
+          font-family:arial;
+          color: #202020;
+          line-height: 1.1;
+      }
+    }
+    @media only screen and (min-width: 1025px) {
+      nav a {
+        float: inherit;
+        width: 30%;
+        margin: 0 auto;
+        padding: 25px 1%;
+        margin-bottom: 0;
+      }
+      a.one:link {
+        color: black;
+        font-family:"Lato";
+        font-size: 20px;
+        }
+      a.one:visited {
+        color: purple;
+        font-family:"Lato";
+        }
+      a.one:hover {
+        color: red;
+        font-family:"Lato";
+        font-size: 30px;
+        text-decoration: none;
+        }
+      section {
+        font-size: 20px;
+        text-align: center;
+        font-family:arial;
+        color: #202020;
+        line-height: 1.1;
+      }
+    }
+
+/* contact */
+
+header {
+  margin-top: 20px;
+  margin-right: 17px;
+}
+a.one:link {
+  color: purple;
+  font-family:"Lato";
+  font-size: large;
+  }
+a.one:visited {
+  color: black;
+  font-family:"Lato";
+  }
+a.one:hover {
+  color: red;
+  font-family:"Lato";
+  font-size: xx-large;
+  text-decoration: none;
+  }
+
+section {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lato";
+    color: #202020;
+    }
+
+.bg {
+    background-image:url(img/tablet.jpg);
+    width: 95%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+/* media queries */
+
+    @media only screen and (min-width: 480px) {
+        body {
+          margin: 0 auto;
+          width: 75%;
+        }
+        nav a {
+          float: inherit;
+          width: 30%;
+          margin: 0 auto;
+          padding: 25px 1%;
+          margin-bottom: 0;
+            }
+        a.one:link {
+          color: black;
+          font-family:"Arial";
+          font-size: 20px;
+            }
+        a.one:visited {
+          color: purple;
+          font-family:"Arial";
+            }
+        a.one:hover {
+           color: red;
+           font-family:"Arial";
+           font-size: 30px;
+           text-decoration: none;
+            }
+        section {
+           font-size: 40px;
+           text-align: center;
+           font-family:arial;
+           color: #202020;
+           line-height: 1.1;
+            }
+          }
+    @media only screen and (min-width: 1025px) {
+        nav a {
+           float: inherit;
+           width: 30%;
+           margin: 0 auto;
+           padding: 25px 1%;
+           margin-bottom: 0;
+           }
+        a.one:link {
+           color: black;
+           font-family:"Arial";
+           font-size: 20px;
+           }
+        a.one:visited {
+           color: purple;
+           font-family:"Arial";
+          }
+        a.one:hover {
+           color: red;
+           font-family:"Arial";
+           font-size: 30px;
+           text-decoration: none;
+          }
+        section {
+          font-size: 20px;
+          text-align: center;
+          font-family:arial;
+          color: #202020;
+          line-height: 1.1;
+          }
+        }
